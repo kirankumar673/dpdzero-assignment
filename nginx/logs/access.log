@@ -52,3 +52,11 @@
 172.18.0.1 - [24/Jun/2025:18:19:21 +0000] "GET /service2/ping HTTP/1.1" 200 30
 172.18.0.1 - - [24/Jun/2025:18:19:24 +0000] "GET /service2/pingg HTTP/1.1" 404 66 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
 172.18.0.1 - [24/Jun/2025:18:19:24 +0000] "GET /service2/pingg HTTP/1.1" 404 66
+192.168.65.1 - - [24/Jun/2025:19:40:49 +0000] "GET /service2/ping HTTP/1.1" 200 30 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+192.168.65.1 - [24/Jun/2025:19:40:49 +0000] "GET /service2/ping HTTP/1.1" 200 30
+192.168.65.1 - - [24/Jun/2025:19:41:02 +0000] "GET /service2/hello HTTP/1.1" 200 35 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+192.168.65.1 - [24/Jun/2025:19:41:02 +0000] "GET /service2/hello HTTP/1.1" 200 35
+192.168.65.1 - - [24/Jun/2025:19:41:39 +0000] "GET /service2/pingg HTTP/1.1" 404 66 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+192.168.65.1 - [24/Jun/2025:19:41:39 +0000] "GET /service2/pingg HTTP/1.1" 404 66
+192.168.65.1 - - [24/Jun/2025:19:41:52 +0000] "GET /service2/ping HTTP/1.1" 200 30 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+192.168.65.1 - [24/Jun/2025:19:41:52 +0000] "GET /service2/ping HTTP/1.1" 200 30
