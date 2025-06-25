@@ -48,20 +48,20 @@ All services are accessible via a single port (e.g., `localhost:8080`).
 1. **Clone the repository**
 
    ```bash
-   git clone <your-repo-url>
-   cd <repo-directory>
+   git clone https://github.com/kirankumar673/dpdzero-assignment/blob/main/docker-compose.yml
+   
 Build and start all services
 
-Run the following command to build all images and start the containers:
+docker-compose up -- build
 
-bash
-Copy
-Edit
-docker-compose up --build
-Access the services
+
 
 Open your browser or API client and test the endpoints:
 
-http://localhost:8080/service1 → Routes to the Golang service.
+http://localhost:8080/service1/ping → Routes to the Golang service.
 
-http://localhost:8080/service2 → Routes to the Python service.
+http://localhost:8080/service1/hello
+
+http://localhost:8080/service2/ping → Routes to the Python service.
+
+http://localhost:8080/service2/hello
