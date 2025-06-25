@@ -31,9 +31,7 @@ All services are accessible via a single port (e.g., `localhost:8080`).
 │ └── Dockerfile
 └── README.md
 
-yaml
-Copy
-Edit
+
 
 ---
 
