@@ -1,4 +1,5 @@
-# DevOps Intern Assignment: Nginx Reverse Proxy + Docker
+#
+
 
 ## Project Overview
 
@@ -66,12 +67,3 @@ Open your browser or API client and test the endpoints:
 http://localhost:8080/service1 → Routes to the Golang service.
 
 http://localhost:8080/service2 → Routes to the Python service.
-
-Nginx Reverse Proxy Configuration
-Routes requests based on URL path prefixes /service1 and /service2.
-
-Logs incoming requests with timestamps and requested paths.
-
-Runs inside its own Docker container.
-
-Uses bridge networking to communicate with backend services.
