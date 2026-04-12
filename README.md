@@ -18,7 +18,7 @@ All services are accessible via a single port (e.g., `localhost:8080`).
 
 ---
 
-## Project Structure
+## Project Structure work
 
 .
 ├── docker-compose.yml
