@@ -66,5 +66,4 @@ http://localhost:8080/service2/ping → Routes to the Python service.
 
 http://localhost:8080/service2/hello
 
-hi kiran thank you ramesh
-
+hi kiran thank you ramesh good
