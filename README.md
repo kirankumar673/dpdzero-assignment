@@ -65,4 +65,4 @@ http://localhost:8080/service1/hello
 http://localhost:8080/service2/ping → Routes to the Python service.
 
 http://localhost:8080/service2/hello
-hi kiran
+hi kiran thank yoy
